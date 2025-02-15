@@ -3,6 +3,7 @@
   "name": "Dark Mode Toggle Medprogramer24",
   "version": "1.0",
   "permissions": ["scripting", "storage", "activeTab"],
+  "license": "MIT",
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
