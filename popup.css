@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 4px;
+  align-items: center;
+  width: 281px;
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  font-family: "Inter", sans-serif;
+}
+
+button {
+  background-color: #2563eb !important;
+  color: white !important;
+  border-radius: 0.5rem;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
