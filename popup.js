@@ -5,4 +5,7 @@ document.getElementById('toggleDarkMode').addEventListener('click', async () => 
       files: ['toggleDark.js']
     });
   });
-  
+// Donate Button - Redirect to your donation page
+donateButton.addEventListener("click", () => {
+  window.open("https://buymeacoffee.com/medsolutech", "_blank");
+});

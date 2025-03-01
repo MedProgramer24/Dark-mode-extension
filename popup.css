@@ -11,9 +11,43 @@ body {
 }
 
 button {
+  display: flex;
+  width: 169px;
+  cursor: pointer !important;
+  flex-direction: column;
+  gap: 1.2rem;
   background-color: #2563eb !important;
   color: white !important;
   border-radius: 0.5rem;
   padding: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.title {
+  color: #ffffff;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.description {
+  color: #ffffff;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+.donate-btn {
+  background-color: #ffcc00 !important;
+  color: #333 !important;
+  border: none !important;
+  padding: 10px 15px !important;
+  margin-top: 10px !important;
+  font-size: 14px !important;
+  font-weight: bold !important;
+  cursor: pointer !important;
+  border-radius: 5px !important;
+  text-align: center !important;
+  transition: background 0.3s !important;
+}
+
+.donate-btn:hover {
+  background-color: #ffdb4d !important;
 }
